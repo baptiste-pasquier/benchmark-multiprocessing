@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "benchmark-multiprocessing"
+version = "0.1.0"
+description = ""
+authors = ["Baptiste Pasquier <pasquierbaptiste@hotmail.fr>"]
+readme = "README.md"
+packages = [{include = "benchmark_multiprocessing"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
